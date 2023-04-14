@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SheCodes-Homework1</title>
+  </head>
+  <style>
+    body {
+      text-align: center;
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 10px 0px;
+    }
+
+    /* .header {
+      font-size: 34px;
+      line-height: 48px;
+    } 
+    Q: Why the font  more bigger if I put font-size & line-height here?
+    A: coz Line height is the vertical distance between two lines of type. So if you put line height here means no line height*/
+
+    .header h1 {
+      color: #1a64d6;
+      margin: 0;
+      font-weight: 700;
+      line-height: 48px;
+      font-size: 34px;
+    }
+
+    .header h2 {
+      font-weight: 400;
+      margin: 0;
+      line-height: 48px;
+      font-size: 34px;
+    }
+
+    .degree {
+      font-weight: bold;
+    }
+
+    .content ul {
+      list-style: none;
+      padding: 0;
+    }
+
+    .content li {
+      padding: 10px 0px;
+      border-radius: 10px;
+      transition: all 200ms ease-in-out;
+      max-width: 400px;
+      text-align: center;
+      margin: 0 auto;
+      font-size: 18px;
+    }
+
+    .content li:hover {
+      background-color: #fffbef;
+    }
+
+    .content p {
+      font-family: monospace;
+      font-size: 18px;
+      opacity: 0.7;
+    }
+
+    button {
+      padding: 16px 24px;
+      margin: 20px auto;
+      border: 1px solid #1a64d6;
+      background-color: #1a64d6;
+      color: white;
+      font-size: 16px;
+      line-height: 22px;
+      border-radius: 30px;
+      transition: all 200ms ease;
+      box-shadow: rgba(37, 39, 89, 0.08) 0px 8px 8px 0;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: white;
+      color: #1a64d6;
+      border: 1px solid #1a64d6;
+    }
+  </style>
+  <body>
+    <div class="header">
+      <h1>
+        🌤️
+        <br />
+        Currently 21° in Tokyo
+      </h1>
+      <h2>13° / <span class="degree">23°</span></h2>
+    </div>
+
+    <div class="content">
+      <ul>
+        <li>
+          <h3>🌧️Tomorrow</h3>
+          <p>10° / <span class="degree">22°</span></p>
+        </li>
+        <li>
+          <h3>🌥️Saturday</h3>
+          <p>15° / <span class="degree">17°</span></p>
+        </li>
+        <li>
+          <h3>☀️Sunday</h3>
+          <p>25° / <span class="degree">28°</span></p>
+        </li>
+      </ul>
+
+      <button>Change City</button>
+      <p>Coded by Pit🌻</p>
+    </div>
+  </body>
+</html>
