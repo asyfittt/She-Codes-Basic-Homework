@@ -1,2 +1,2 @@
-# She-Codes-Basic-Week1
+# She-Codes-Basic-Homework
 My homework in week 1
